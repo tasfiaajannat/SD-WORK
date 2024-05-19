@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7ab9cb; /* Light blue background color */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00796b; /* Teal color */
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#addTaskButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addTaskButton:hover {
+    background-color: #004d40; /* Darker teal color */
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#taskList li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f2f1; /* Light teal background */
+    transition: background-color 0.3s;
+}
+
+#taskList li:hover {
+    background-color: #b2dfdb; /* Slightly darker teal */
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+#clearAllButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d32f2f; /* Red color */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clearAllButton:hover {
+    background-color: #b71c1c; /* Darker red color */
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:nth-child(2) {
+    background-color: #0288d1; /* Blue color */
+    color: white;
+}
+
+button:nth-child(2):hover {
+    background-color: #0277bd; /* Darker blue color */
+}
+
+button:nth-child(3) {
+    background-color: #fbc02d; /* Yellow color */
+    color: white;
+}
+
+button:nth-child(3):hover {
+    background-color: #f9a825; /* Darker yellow color */
+}
+
+button:nth-child(4) {
+    background-color: #d32f2f; /* Red color */
+    color: white;
+}
+
+button:nth-child(4):hover {
+    background-color: #c62828; /* Darker red color */
+}
